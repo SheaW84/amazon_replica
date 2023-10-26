@@ -5,6 +5,8 @@ html {
   
   body{
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
   
   
@@ -12,10 +14,12 @@ html {
     border: gray solid .5px;
     padding: 20px;
     margin: 50px 100px;
+    width: 50%;
+    position: center;
   }
   
   input{
-    width: 90%;
+    width: 50%;
   }
   
   input[type=button]{
@@ -24,4 +28,5 @@ html {
   
   a {
     text-decoration: none;
+    color: rgb(0,0,255);
   }
