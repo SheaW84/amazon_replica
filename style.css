@@ -1,40 +1,82 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  body{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  
-  form {
-    display: block;
-    border: gray solid .5px;
-    padding: 10px;
-    margin: 100px;
-    width: 100%;
-    border-radius: 5px;
-  }
-  
-  input[type=text], [type=password]{
-    width: 100%;
-    padding: 12px 20px;
-  }
-  
-  input[type=button]{
-    margin : 10px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: rgb(0,0,255);
-  }
+* {
+   border: 1px solid red; 
+}
 
-  label {
-    text-align: right;
-  }
- 
+label {
+  font-size: .8em;
+}
+
+a{
+  text-decoration: none;
+}
+  
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: auto ;
+  padding: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding:20px ;
+  width: 30%;
+  font-family:Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(219, 205, 205);
+  border-radius: 5px;
+}
+
+.password-label-link {
+  display: flex;
+  flex-direction: row;
+  place-content: space-between;
+}
+
+.help{
+  margin-left: 10px;
+}
+
+#email, #password {
+  border: 1px solid rgb(104, 100, 100);
+  border-radius: 2px;
+  height:30px;
+  margin-top: 10px;
+}
+
+
+#continue{
+  height: 30px;
+  background-color: rgb(243, 212, 36);
+  border: 1px solid rgb(196, 177, 177);
+  border-radius: 2px;
+}
+
+.membership{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#new-account-button {
+  width: 30%;
+  height: 30px;
+  border-color: 1px solid rgb(218, 218, 218);
+  margin-bottom: 50px;
+}
+#membership{
+  text-decoration: dash;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#user-nav{
+  width:100%;
+  place-content: space-evenly;
+}
